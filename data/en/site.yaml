@@ -22,8 +22,8 @@ description: Portfolio and personal blog of Samuel Kamajaya.
 
 # Specify OpenGraph Headers
 openGraph:
-  title: Samuel Kamajaya
+  title: Samuel Kamajaya portfolio
   type: website
   description: Portfolio and personal blog of Samuel Kamajaya.
-  image: images/author/john.png
-  url: https://hugo-toha.github.io
+  image: images/author/sam.png
+  url: https://samuelkamajaya.com
