@@ -1,7 +1,7 @@
 baseURL: https://samuelkamajaya.com
 
 languageCode: bn
-title: "John's Blog"
+title: "Samuel Kamajaya"
 
 # Use Hugo modules to add theme
 module:
@@ -23,13 +23,13 @@ languages:
   en:
     languageCode: en
     languageName: English
-    title: "John's Blog"
+    title: "Samuel Kamajaya"
     weight: 1
-  bn:
-    languageCode: bn
-    languageName: বাংলা
-    title: জনের ব্লগ
-    weight: 2
+  # bn:
+  #   languageCode: bn
+  #   languageName: বাংলা
+  #   title: জনের ব্লগ
+  #   weight: 2
 # default language for the content
 defaultContentLanguage: en
 
@@ -64,10 +64,10 @@ params:
 
   # Provide logos for your site. The inverted logo will be used in the initial
   # transparent navbar and the main logo will be used in the non-transparent navbar.
-  logo:
-    main: /images/site/main-logo.png
-    inverted: /images/site/inverted-logo.png
-    favicon: /images/site/favicon.png
+  # logo:
+  #   main: /images/site/main-logo.png
+  #   inverted: /images/site/inverted-logo.png
+  #   favicon: /images/site/favicon.png
 
   # GitHub repo of your site
   gitRepo: https://github.com/kamajays/hugo-toha.github.io
@@ -96,16 +96,16 @@ params:
 
     # Enable and configure portfolio
     portfolio:
-      enable: true
+      enable: false
 
     # Enable and configure blog posts
     blog:
-      enable: true
+      enable: false
       showAuthor: true # shows the author of post (defaults true)
       # Share post on different social media
       shareButtons:
-        facebook: true
-        twitter: true
+        facebook: false
+        twitter: false
         linkedin: true
         reddit: true
         whatsapp: true
@@ -117,7 +117,7 @@ params:
 
     # Enable & configure "Notes" features
     notes:
-      enable: true
+      enable: false
 
     # Enable comment feature. There, should be only one of them.
     comment:
@@ -281,7 +281,7 @@ params:
 
   # Provide footer configuration.
   footer:
-    enable: true
+    enable: false
     # You can provide your custom footer template using this option.
     # Put your template in "layouts/partials" folder of your repo.
     template: footer.html
@@ -306,4 +306,4 @@ params:
 
     # Show/hide disclaimer notice in the footer. Default is "false".
     disclaimer:
-      enable: true
+      enable: false
